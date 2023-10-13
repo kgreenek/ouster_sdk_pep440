@@ -1,5 +1,6 @@
 # ouster_sdk_pep440
 Minimal repo to demonstrate https://github.com/ouster-lidar/ouster_example/issues/560
+See also: https://github.com/bazelbuild/rules_python/issues/1491
 
 Tested on Ubuntu 22.04.
 
