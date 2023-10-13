@@ -1,0 +1,8 @@
+load("@pip_deps//:requirements.bzl", "requirement")
+load("@rules_python//python:defs.bzl", "py_binary")
+
+py_binary(
+    name = "ouster_pcap_record",
+    srcs = ["ouster_pcap_record.py"],
+    deps = [requirement("ouster-sdk")],
+)
